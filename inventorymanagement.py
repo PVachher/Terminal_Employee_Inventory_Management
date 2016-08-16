@@ -1344,6 +1344,6 @@ class inventory(object):
         print 'Sales Record :-'
         print '    Bill Numbers   :',
         for x in tempdict['Salesrecord']['Bills']:
-            print x + ',',
+            print x, ',',
         print
         print '    Total Purchase :',tempdict['Salesrecord']['Total sales']
