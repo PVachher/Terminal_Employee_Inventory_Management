@@ -1,0 +1,802 @@
+(dp0
+S'company'
+p1
+I0
+sS'Customers'
+p2
+(dp3
+S'wow'
+p4
+S'1wow'
+p5
+sS'Vishrut'
+p6
+(dp7
+S'City'
+p8
+S'New Delhi 110048'
+p9
+sS'Salesrecord'
+p10
+(dp11
+S'Bills'
+p12
+(lp13
+I11
+aI12
+aI13
+asS'Total sales'
+p14
+I110548
+ssS'address1'
+p15
+S'W - 97'
+p16
+sS'address2'
+p17
+S'GK - 2'
+p18
+sS'Phone Number'
+p19
+S'9999335240'
+p20
+sS'email'
+p21
+S'vishrutjaipuria@gmail.com'
+p22
+sssS'sales'
+p23
+(dp24
+I1
+(dp25
+S'Product Name'
+p26
+(lp27
+S'Macbook Air'
+p28
+asS'Product Code'
+p29
+(lp30
+S'1'
+p31
+asS'Price'
+p32
+(lp33
+I100989
+asS'Salesperson id'
+p34
+I1
+sS'Total amount of sales'
+p35
+I100989
+sS'Customer Information'
+p36
+(dp37
+S'City'
+p38
+S'rvrev'
+p39
+sS'Name'
+p40
+S'refvfd'
+p41
+sS'Phone Number'
+p42
+S'rer'
+p43
+sS'Email'
+p44
+S'r'
+p45
+sS'Address'
+p46
+S'erfes, rvre'
+p47
+ssS'Date'
+p48
+S'12/08/2016'
+p49
+sS'Description'
+p50
+(lp51
+S"Macbook Air 13' with retina display"
+p52
+asS'Quantity'
+p53
+(lp54
+I1
+assI2
+(dp55
+S'Product Name'
+p56
+(lp57
+S'Macbook Air'
+p58
+asS'Product Code'
+p59
+(lp60
+S'1'
+p61
+asS'Price'
+p62
+(lp63
+I100989
+asS'Salesperson id'
+p64
+I1
+sS'Total amount of sales'
+p65
+I201978
+sS'Customer Information'
+p66
+(dp67
+S'City'
+p68
+S'weeww'
+p69
+sS'Address'
+p70
+S'fgdvdfv, fvfdv'
+p71
+sS'Phone Number'
+p72
+S'tgth'
+p73
+sS'Email'
+p74
+S'5tge'
+p75
+sS'Name'
+p76
+S'tgrvfd'
+p77
+ssS'Date'
+p78
+S'12/08/2016'
+p79
+sS'Quantity'
+p80
+(lp81
+I2
+asS'Description'
+p82
+(lp83
+S"Macbook Air 13' with retina display"
+p84
+assI3
+(dp85
+S'Customer Information'
+p86
+(dp87
+S'City'
+p88
+S'e'
+p89
+sS'Address'
+p90
+S'q, w'
+p91
+sS'Phone Number'
+p92
+S'r'
+p93
+sS'Name'
+p94
+S'Vishrut'
+p95
+sS'Email'
+p96
+S't'
+p97
+ssS'Description'
+p98
+(lp99
+S'Headphone bose noise cancelling on the ear oe1000000000 with wire and case and manual and etc.......................'
+p100
+asS'Product Code'
+p101
+(lp102
+S'4'
+p103
+asS'Price'
+p104
+(lp105
+I1000
+asS'Shipping'
+p106
+I100
+sS'Salesperson id'
+p107
+I1
+sS'Total amount of sales'
+p108
+I10000
+sS'Product Name'
+p109
+(lp110
+S'Headphones'
+p111
+asS'Date'
+p112
+S'13/08/2016'
+p113
+sS'Quantity'
+p114
+(lp115
+I10
+assI4
+(dp116
+S'Customer Information'
+p117
+(dp118
+S'City'
+p119
+S'New DElhi - 110048'
+p120
+sS'Address'
+p121
+S'W - 97, GK - 2'
+p122
+sS'Phone Number'
+p123
+S'9999335240'
+p124
+sS'Email'
+p125
+S'vishrutjaipuria@gmail.com'
+p126
+sS'Name'
+p127
+S'Vishrut Jaipuria'
+p128
+ssS'Description'
+p129
+(lp130
+S"Macbook Air 13' with retina display"
+p131
+asS'Product Code'
+p132
+(lp133
+S'1'
+p134
+asS'Price'
+p135
+(lp136
+I100989
+asS'Shipping'
+p137
+I0
+sS'Salesperson id'
+p138
+I1
+sS'Total amount of sales'
+p139
+I100989
+sS'Product Name'
+p140
+(lp141
+S'Macbook Air'
+p142
+asS'Date'
+p143
+S'13/08/2016'
+p144
+sS'Quantity'
+p145
+(lp146
+I1
+assI5
+(dp147
+S'Description'
+p148
+(lp149
+S"Macbook Air 13' with retina display"
+p150
+asS'Product Code'
+p151
+(lp152
+S'1'
+p153
+asS'Price'
+p154
+(lp155
+I100989
+asS'Shipping'
+p156
+I200
+sS'Product Name'
+p157
+(lp158
+S'Macbook Air'
+p159
+asS'Salesperson id'
+p160
+I1
+sS'Total amount of sales'
+p161
+I100989
+sS'Customer Information'
+p162
+(dp163
+S'Email'
+p164
+g126
+sS'City'
+p165
+g120
+sS'Phone Number'
+p166
+g124
+sS'Name'
+p167
+S'Vishrut Jaipuria'
+p168
+sS'Address'
+p169
+S'W - 97, GK - 2'
+p170
+ssS'Date'
+p171
+S'13/08/2016'
+p172
+sS'Quantity'
+p173
+(lp174
+I1
+assI6
+(dp175
+S'Product Name'
+p176
+(lp177
+S'Macbook Air'
+p178
+asS'Product Code'
+p179
+(lp180
+S'1'
+p181
+asS'Price'
+p182
+(lp183
+I100989
+asS'Salesperson id'
+p184
+I1
+sS'Total amount of sales'
+p185
+I100989
+sS'Customer Information'
+p186
+(dp187
+S'City'
+p188
+g120
+sS'Address'
+p189
+S'W - 97, GK - 2'
+p190
+sS'Phone Number'
+p191
+g124
+sS'Name'
+p192
+S'Vishrut Jaipuria'
+p193
+sS'Email'
+p194
+g126
+ssS'Date'
+p195
+S'13/08/2016'
+p196
+sS'Quantity'
+p197
+(lp198
+I1
+asS'Description'
+p199
+(lp200
+S"Macbook Air 13' with retina display"
+p201
+assI7
+(dp202
+S'Product Name'
+p203
+(lp204
+S'Macbook Air'
+p205
+aS'Headphones'
+p206
+asS'Product Code'
+p207
+(lp208
+S'1'
+p209
+aS'4'
+p210
+asS'Price'
+p211
+(lp212
+I100989
+aI1000
+asS'Salesperson id'
+p213
+I1
+sS'Total amount of sales'
+p214
+I202978
+sS'Customer Information'
+p215
+(dp216
+S'City'
+p217
+g120
+sS'Name'
+p218
+S'Vishrut Jaipuria'
+p219
+sS'Phone Number'
+p220
+g124
+sS'Email'
+p221
+g126
+sS'Address'
+p222
+S'W - 97, GK - 2'
+p223
+ssS'Date'
+p224
+S'13/08/2016'
+p225
+sS'Description'
+p226
+(lp227
+S"Macbook Air 13' with retina display"
+p228
+aS'Headphone bose noise cancelling on the ear oe1000000000 with wire and case and manual and etc.......................'
+p229
+asS'Quantity'
+p230
+(lp231
+I2
+aI1
+assI8
+(dp232
+S'Product Name'
+p233
+(lp234
+S'Nexus 5X'
+p235
+asS'Product Code'
+p236
+(lp237
+S'2'
+p238
+asS'Price'
+p239
+(lp240
+I1231242
+asS'Salesperson id'
+p241
+I1
+sS'Total amount of sales'
+p242
+I1231242
+sS'Customer Information'
+p243
+(dp244
+S'City'
+p245
+g120
+sS'Address'
+p246
+S'W - 97, GK - 2'
+p247
+sS'Phone Number'
+p248
+g124
+sS'Email'
+p249
+g126
+sS'Name'
+p250
+S'Vishrut Jaipuria'
+p251
+ssS'Date'
+p252
+S'13/08/2016'
+p253
+sS'Quantity'
+p254
+(lp255
+I1
+asS'Description'
+p256
+(lp257
+S'Nexus 5X'
+p258
+assI9
+(dp259
+S'Product Name'
+p260
+(lp261
+S'Macbook Air'
+p262
+asS'Product Code'
+p263
+(lp264
+S'1'
+p265
+asS'Price'
+p266
+(lp267
+I100989
+asS'Salesperson id'
+p268
+I1
+sS'Total amount of sales'
+p269
+I100989
+sS'Customer Information'
+p270
+(dp271
+S'Email'
+p272
+g126
+sS'City'
+p273
+g120
+sS'Phone Number'
+p274
+g124
+sS'Name'
+p275
+S'Vishrut Jaipuria'
+p276
+sS'Address'
+p277
+S'W - 97, GK - 2'
+p278
+ssS'Date'
+p279
+S'13/08/2016'
+p280
+sS'Description'
+p281
+(lp282
+S"Macbook Air 13' with retina display"
+p283
+asS'Quantity'
+p284
+(lp285
+I1
+assI10
+(dp286
+S'Product Name'
+p287
+(lp288
+S'Headphones'
+p289
+asS'Product Code'
+p290
+(lp291
+S'4'
+p292
+asS'Price'
+p293
+(lp294
+I1000
+asS'Salesperson id'
+p295
+I1
+sS'Total amount of sales'
+p296
+I1000
+sS'Customer Information'
+p297
+(dp298
+S'City'
+p299
+g120
+sS'Address'
+p300
+S'W - 97, GK - 2'
+p301
+sS'Phone Number'
+p302
+g124
+sS'Name'
+p303
+S'Vishrut Jaipuria'
+p304
+sS'Email'
+p305
+g126
+ssS'Date'
+p306
+S'13/08/2016'
+p307
+sS'Quantity'
+p308
+(lp309
+I1
+asS'Description'
+p310
+(lp311
+S'Headphone bose noise cancelling on the ear oe1000000000 with wire and case and manual and etc.......................'
+p312
+assI11
+(dp313
+S'Product Name'
+p314
+(lp315
+S'Macbook Air'
+p316
+asS'Product Code'
+p317
+(lp318
+S'1'
+p319
+asS'Price'
+p320
+(lp321
+I100989
+asS'Salesperson id'
+p322
+I1
+sS'Total amount of sales'
+p323
+I100989
+sS'Customer Information'
+p324
+(dp325
+S'City'
+p326
+g9
+sS'Name'
+p327
+S'Vishrut'
+p328
+sS'Phone Number'
+p329
+g20
+sS'Email'
+p330
+g22
+sS'Address'
+p331
+S'W - 97, GK - 2'
+p332
+ssS'Date'
+p333
+S'14/08/2016'
+p334
+sS'Description'
+p335
+(lp336
+S"Macbook Air 13' with retina display"
+p337
+asS'Quantity'
+p338
+(lp339
+I1
+assI12
+(dp340
+S'Product Name'
+p341
+(lp342
+S'Headphones'
+p343
+asS'Product Code'
+p344
+(lp345
+S'4'
+p346
+asS'Price'
+p347
+(lp348
+I1000
+asS'Salesperson id'
+p349
+I1
+sS'Total amount of sales'
+p350
+I1000
+sS'Customer Information'
+p351
+(dp352
+S'City'
+p353
+g9
+sS'Address'
+p354
+S'W - 97, GK - 2'
+p355
+sS'Phone Number'
+p356
+g20
+sS'Email'
+p357
+g22
+sS'Name'
+p358
+S'Vishrut'
+p359
+ssS'Date'
+p360
+S'14/08/2016'
+p361
+sS'Quantity'
+p362
+(lp363
+I1
+asS'Description'
+p364
+(lp365
+S'Headphone bose noise cancelling on the ear oe1000000000 with wire and case and manual and etc.......................'
+p366
+assI13
+(dp367
+S'Customer Information'
+p368
+(dp369
+S'Email'
+p370
+g22
+sS'City'
+p371
+g9
+sS'Phone Number'
+p372
+g20
+sS'Name'
+p373
+VVishrut
+p374
+sS'Address'
+p375
+S'W - 97, GK - 2'
+p376
+ssS'Product Code'
+p377
+(lp378
+V1
+p379
+aV4
+p380
+asS'Price'
+p381
+(lp382
+I100989
+aI1000
+asS'Salesperson id'
+p383
+I1
+sS'Total amount of sales'
+p384
+I106989
+sS'Product Name'
+p385
+(lp386
+S'Macbook Air'
+p387
+aS'Headphones'
+p388
+asS'Date'
+p389
+S'16/08/2016'
+p390
+sS'Description'
+p391
+(lp392
+S"Macbook Air 13' with retina display"
+p393
+aS'Headphone bose noise cancelling on the ear oe1000000000 with wire and case and manual and etc.......................'
+p394
+asS'Quantity'
+p395
+(lp396
+I1
+aI6
+asss.

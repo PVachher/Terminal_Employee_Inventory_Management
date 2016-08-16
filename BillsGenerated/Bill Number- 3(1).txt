@@ -1,0 +1,37 @@
+                                         Retail  Invoice
+
+Customer Information:                                    Company Information:
+                                                         Inventory
+,                                                        W - 97, Greater Kailash - 2
+                                                         New Delhi - 110048
+                                                         Telephone Number - +919999335240
+                                                         E-mail - vishrutjaipuria@gmail.com
+                                                         Tin number - 1111111111
+
+Invoice Number : 3
+Date:    20/2/2016                                       
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+ S.NO  Product Code    Description                             Quantity   Price Per Unit   Total Price
+—————————————————————————————————————————————————————————————————————————————————————————————————————-
+
+   1         5         Macbook Pro 16 Inch                       1        100000            100000
+
+
+
+                                                                             Total       : Rs.100000
+                                                                             Taxes       : Rs.2000
+                                                                             ————————————————————————-
+                                                                             Grand Total : Rs.102000
+                                                                             ————————————————————————-
+
+
+
+Payment terms
+Payment within 30 days via money transfer only to the following account:
+Inventory Management
+Sort Code: 123
+Account No: 123456789
+
+Terms and Conditions :-
+1. Goods once sold will not be returned. 
+2. Goods despatched at customer's risk.3. Disputes subject to Delhi Jurisdiction.

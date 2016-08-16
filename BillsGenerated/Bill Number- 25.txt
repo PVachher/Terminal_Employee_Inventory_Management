@@ -1,0 +1,46 @@
+                                         Retail  Invoice
+
+Customer Information:                                    Company Information:
+rgqreg                                                   Inventory
+herwgver, rgsdv                                          W - 97, Greater Kailash - 2
+dvadsfad                                                 New Delhi - 110048
+fewafwe                                                  Telephone Number - +919999335240
+wqdqw                                                    E-mail - vishrutjaipuria@gmail.com
+                                                         Tin number - 1111111111
+
+Invoice Number : 25
+Date:    20/2/2016                                       
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+ S.NO  Product Code    Description                             Quantity   Price Per Unit   Total Price
+—————————————————————————————————————————————————————————————————————————————————————————————————————-
+
+   1         1         Macbook Air 13' with retina display4        100989            403956
+                      
+
+   2         4         Headphone bose noise cancelling on th3        1000              3000
+                      he ear oe1000000000 with wire and ca
+                      e and manual and etc...............
+                      ......
+
+   3         3         10000' LED TV4        2324309           9297236
+                      
+
+
+
+                                                                             Total       : Rs.9704192
+                                                                             Taxes       : Rs.194083
+                                                                             ————————————————————————-
+                                                                             Grand Total : Rs.9898275
+                                                                             ————————————————————————-
+
+
+
+Payment terms
+Payment within 30 days via money transfer only to the following account:
+Inventory Management
+Sort Code: 123
+Account No: 123456789
+
+Terms and Conditions :-
+1. Goods once sold will not be returned. 
+2. Goods despatched at customer's risk.3. Disputes subject to Delhi Jurisdiction.

@@ -1,0 +1,39 @@
+                                         Retail  Invoice
+
+Customer Information:                                    Company Information:
+w                                                        Inventory
+qwe, wq                                                  W - 97, Greater Kailash - 2
+qew                                                      New Delhi - 110048
+qwe                                                      Telephone Number - +919999335240
+eq                                                       E-mail - vishrutjaipuria@gmail.com
+                                                         Tin number - 1111111111
+
+Invoice Number : 15
+Date:    20/2/2016                                       
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+ S.NO  Product Code    Description                             Quantity   Price Per Unit   Total Price
+—————————————————————————————————————————————————————————————————————————————————————————————————————-
+
+   1         4         Headphone bose                                 1        1000              1000
+
+   2         4         Headphone bose                                 4        1000              4000
+
+
+
+                                                                             Total       : Rs.5000
+                                                                             Taxes       : Rs.100
+                                                                             ————————————————————————-
+                                                                             Grand Total : Rs.5100
+                                                                             ————————————————————————-
+
+
+
+Payment terms
+Payment within 30 days via money transfer only to the following account:
+Inventory Management
+Sort Code: 123
+Account No: 123456789
+
+Terms and Conditions :-
+1. Goods once sold will not be returned. 
+2. Goods despatched at customer's risk.3. Disputes subject to Delhi Jurisdiction.
