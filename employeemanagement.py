@@ -10,6 +10,7 @@ from inventorymanagement import *
 # EMPLOYEE DEFINATION #
 class employee(object):
     def __init__(self):
+        self.id = 0
         self.__first_name = ""
         self.__surname = ""
         self.__address = ""
@@ -86,6 +87,8 @@ class employee(object):
         self.__bonus += amount * 0.02
         self.__targets += quantity
 
+
+
 # -----------------------------------------------------------------------------#
 #                                FUNCTION DEFINATION                           #
 
@@ -149,6 +152,31 @@ def searchid(userid):
     details.generaterecord()
 
 
+def getid():
+    import pymysql
+    db = pymysql.connect("52.66.46.128", "root", "Welcome123", "sms")
+    cursor = db.cursor()
+    sql = "SELECT * FROM employee_id"
+    try:
+        cursor.execute(sql)
+        results = cursor.fetchall()
+        return results[0][0]
+    except:
+        print "ERROR CHECKING Auth"
+
+
+def updateid():
+    import pymysql
+    db = pymysql.connect("52.66.46.128", "root", "Welcome123", "sms")
+    cursor = db.cursor()
+    sql = "UPDATE employee_id set id=id+1"
+    try:
+        cursor.execute(sql)
+        db.commit()
+    except:
+        print "ERROR CHECKING Auth"
+        db.rollback()
+
 # -----------------------------------------------------------------------------#
 #                             MASTER WORKSPACE                                 #
 
@@ -170,7 +198,8 @@ while True:
                 while a != 0:
                     a -= 1
                     print ""
-                    b = input("Employee ID: ")
+                    b = getid()
+                    print "Employee ID: ", b
                     if b in masterdatabase :
                         print "Error, The Employee ID is already taken"
                         a += 1
@@ -180,7 +209,7 @@ while True:
                     masterdatabase[b] = c
                 sync(masterdatabase)
                 print "Employee Credentials synced with Database"
-
+                updateid()
 
             # OPTION 2 - MAIN MENU 2
             elif mainmenu2var == 2:

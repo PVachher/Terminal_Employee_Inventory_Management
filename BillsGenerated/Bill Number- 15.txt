@@ -1,29 +1,28 @@
                                          Retail  Invoice
 
 Customer Information:                                    Company Information:
-w                                                        Inventory
-qwe, wq                                                  W - 97, Greater Kailash - 2
-qew                                                      New Delhi - 110048
-qwe                                                      Telephone Number - +919999335240
-eq                                                       E-mail - vishrutjaipuria@gmail.com
+Vishrut                                                  Inventory
+W - 97, GK - 2                                           W - 97, Greater Kailash - 2
+New Delhi 110048                                         New Delhi - 110048
+9999335240                                               Telephone Number - +919999335240
+vishrutjaipuria@gmail.com                                E-mail - vishrutjaipuria@gmail.com
                                                          Tin number - 1111111111
 
 Invoice Number : 15
-Date:    20/2/2016                                       
+Date :  31/08/2016
 ——————————————————————————————————————————————————————————————————————————————————————————————————————
  S.NO  Product Code    Description                             Quantity   Price Per Unit   Total Price
 —————————————————————————————————————————————————————————————————————————————————————————————————————-
 
-   1         4         Headphone bose                                 1        1000              1000
-
-   2         4         Headphone bose                                 4        1000              4000
+   1         1         Nexus 5X                                  10         100000            1000000
 
 
 
-                                                                             Total       : Rs.5000
-                                                                             Taxes       : Rs.100
+                                                                             Total       : Rs.1000000
+                                                                             Taxes       : Rs.20000
+                                                                             Shipping    : Rs.100
                                                                              ————————————————————————-
-                                                                             Grand Total : Rs.5100
+                                                                             Grand Total : Rs.1020100
                                                                              ————————————————————————-
 
 
