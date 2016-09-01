@@ -4,7 +4,7 @@ import os
 import time
 from datetime import datetime
 from emailengine import emailit
-#-------------------- CLASS DEFINATION --------------------------#
+#-------------------- CLASS DEFINATION ----------------------------------#
 
 class inventory(object):
 
