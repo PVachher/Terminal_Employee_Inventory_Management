@@ -4,7 +4,7 @@ import os
 import time
 from datetime import datetime
 from emailengine import emailit
-#-------------------- CLASS DEFINATION --------------------------#
+#-------------------- CLASS DEFINATION ----------------------------------#
 
 class inventory(object):
 
@@ -18,8 +18,10 @@ class inventory(object):
         self.product_SP = 0
         self.product_company = ''
         self.product_VAT = 0
+        self.product_minorderquantity = 0
+        self.product_addname=''
         self.tempdict={}
-        self.globalinventorydatabase1 = {}
+        self.globalinventorydatabase1={}
         self.usermainmenuinput_inventory = 0
         self.salespersonid = 0
         self.today = ''
@@ -217,13 +219,13 @@ class inventory(object):
 
         if flag == 0:
             print 'The product code you entered already exists'
-
+            self.reedit()
             if self.reedit() == 2:
                 self.addnewproduct()
 
         elif flag == 1:
             print 'The product name you entered already exists'
-
+            self.reedit()
             if self.reedit() == 2:
                 self.addnewproduct()
 
@@ -400,9 +402,6 @@ class inventory(object):
                 tempdict['Phone Number'] = customerno
                 tempdict['email'] = customeremail
                 globalcompanydatabase['Customers'][customername] = tempdict
-                globalcompanydatabase['Customers'][customername]['Salesrecord'] = {}
-                globalcompanydatabase['Customers'][customername]['Salesrecord']['Bills'] = []
-                globalcompanydatabase['Customers'][customername]['Salesrecord']['Total sales'] = 0
                 print 'Customer Information saved'
                 print
 
@@ -652,8 +651,6 @@ class inventory(object):
         ifile.close()
         os.rename('BillsGenerated/hello2.txt',"BillsGenerated/Bill Number- "+ str(self.count)+".txt")
         emailit(globalcompanydatabase['sales'][self.count]['Customer Information']['Email'],self.count)
-        print
-        print 'Bill Generated'
         self.menu()
 
     #######################################################################################################################################
@@ -661,7 +658,7 @@ class inventory(object):
     #######################################################################################################################################
 
     def editinformation(self):
-        print '______________________________ Edit Information _______________________________'
+        print '______________________________ Edit Formation _______________________________'
         print
         globalinventorydatabase = pickle.load(open("Databases/inventorydatabase.db", "rb"))
         print '1. to edit code\n2. to edit product name\n3. to edit selling price\n4. to edit VAT\n5. to edit product description'
@@ -1313,6 +1310,3 @@ class inventory(object):
     #######################################################################################################################################
 
     #######################################################################################################################################
-
-
-

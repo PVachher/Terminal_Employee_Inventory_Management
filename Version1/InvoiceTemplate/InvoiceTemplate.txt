@@ -1,28 +1,24 @@
                                          Retail  Invoice
 
 Customer Information:                                    Company Information:
-Manu Jaipuria                                            Inventory
-W-97, GK-2                                               W - 97, Greater Kailash - 2
-New Delhi                                                New Delhi - 110048
-9810035735                                               Telephone Number - +919999335240
-vishrutjai@gmail.com                                     E-mail - vishrutjaipuria@gmail.com
+Vishrut Jaipuria                                         Inventory
+W - 97, Greater Kailash-2                                W - 97, Greater Kailash - 2
+New Delhi - 110048                                       New Delhi - 110048
+Telephone Number - 1234567890                            Telephone Number - +919999335240
+E-Mail - vjhd@gmail.com                                  E-mail - vishrutjaipuria@gmail.com
                                                          Tin number - 1111111111
 
-Invoice Number : 1
-Date :  01/09/2016
+Invoice No: 1
+Date:    20/2/2016                                       
 ——————————————————————————————————————————————————————————————————————————————————————————————————————
  S.NO  Product Code    Description                             Quantity   Price Per Unit   Total Price
 —————————————————————————————————————————————————————————————————————————————————————————————————————-
 
-   1         1         13.3"                                     10         50000             500000
 
-
-
-                                                                             Total       : Rs.500000
-                                                                             Taxes       : Rs.10000
-                                                                             Shipping    : Rs.100
+                                                                             Total       : Rs.                       
+                                                                             Taxes       : Rs.                      
                                                                              ————————————————————————-
-                                                                             Grand Total : Rs.510100
+                                                                             Grand Total : Rs.
                                                                              ————————————————————————-
 
 

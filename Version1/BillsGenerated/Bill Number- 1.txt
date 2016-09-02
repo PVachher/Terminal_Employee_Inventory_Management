@@ -1,28 +1,27 @@
                                          Retail  Invoice
 
 Customer Information:                                    Company Information:
-Manu Jaipuria                                            Inventory
-W-97, GK-2                                               W - 97, Greater Kailash - 2
-New Delhi                                                New Delhi - 110048
-9810035735                                               Telephone Number - +919999335240
-vishrutjai@gmail.com                                     E-mail - vishrutjaipuria@gmail.com
+refvfd                                                   Inventory
+erfes, rvre                                              W - 97, Greater Kailash - 2
+rvrev                                                    New Delhi - 110048
+rer                                                      Telephone Number - +919999335240
+r                                                        E-mail - vishrutjaipuria@gmail.com
                                                          Tin number - 1111111111
 
 Invoice Number : 1
-Date :  01/09/2016
+Date :  12/08/2016
 ——————————————————————————————————————————————————————————————————————————————————————————————————————
  S.NO  Product Code    Description                             Quantity   Price Per Unit   Total Price
 —————————————————————————————————————————————————————————————————————————————————————————————————————-
 
-   1         1         13.3"                                     10         50000             500000
+   1         1         Macbook Air 13' with retina display       1          100989            100989
 
 
 
-                                                                             Total       : Rs.500000
-                                                                             Taxes       : Rs.10000
-                                                                             Shipping    : Rs.100
+                                                                             Total       : Rs.100989
+                                                                             Taxes       : Rs.2019
                                                                              ————————————————————————-
-                                                                             Grand Total : Rs.510100
+                                                                             Grand Total : Rs.103008
                                                                              ————————————————————————-
 
 

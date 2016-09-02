@@ -1,46 +1,46 @@
 (dp0
-S'company'
+S'Customers'
 p1
-I0
-sS'Customers'
-p2
-(dp3
-S'Prateek'
-p4
-(dp5
+(dp2
+S'Manu Jaipuria'
+p3
+(dp4
 S'City'
+p5
+S'New Delhi'
 p6
-S'Delhi'
-p7
 sS'Salesrecord'
-p8
-(dp9
-sS'address1'
-p10
-S'Greater Kailash'
+p7
+(dp8
+S'Bills'
+p9
+(lp10
+I1
+asS'Total sales'
 p11
-sS'address2'
+I510100
+ssS'address1'
 p12
-S''
+S'W-97'
 p13
-sS'Phone Number'
+sS'address2'
 p14
-S'1234567890'
+S'GK-2'
 p15
-sS'email'
+sS'Phone Number'
 p16
-S'qwerty@gmail.com'
+S'9810035735'
 p17
-ssS'wow'
+sS'email'
 p18
-S'1wow'
+S'vishrutjai@gmail.com'
 p19
-sS'Vishrut'
+ssS'Vishrut Jaipuria'
 p20
 (dp21
 S'City'
 p22
-S'New Delhi 110048'
+S'New Delhi'
 p23
 sS'Salesrecord'
 p24
@@ -48,23 +48,17 @@ p24
 S'Bills'
 p26
 (lp27
-I11
-aI12
-aI13
-aI14
-aI15
-aI16
-aI17
+I2
 asS'Total sales'
 p28
-I139483174
+I510100
 ssS'address1'
 p29
-S'W - 97'
+S'W-97'
 p30
 sS'address2'
 p31
-S'GK - 2'
+S'GK-2'
 p32
 sS'Phone Number'
 p33
@@ -72,7 +66,7 @@ S'9999335240'
 p34
 sS'email'
 p35
-S'vishrutjaipuria@gmail.com'
+S'vishrut1998@gmail.com'
 p36
 sssS'sales'
 p37
@@ -92,57 +86,66 @@ p45
 asS'Price'
 p46
 (lp47
-I100989
+I50000
 asS'Salesperson id'
 p48
 I1
 sS'Total amount of sales'
 p49
-I100989
+I500000
 sS'Customer Information'
 p50
 (dp51
 S'City'
 p52
-S'rvrev'
-p53
+g6
 sS'Address'
+p53
+S'W-97, GK-2'
 p54
-S'erfes, rvre'
-p55
 sS'Phone Number'
-p56
-S'rer'
-p57
-sS'Name'
-p58
-S'refvfd'
-p59
+p55
+g17
 sS'Email'
-p60
-S'r'
-p61
+p56
+g19
+sS'Name'
+p57
+S'Manu Jaipuria'
+p58
 ssS'Date'
-p62
-S'12/08/2016'
-p63
+p59
+S'01/09/2016'
+p60
 sS'Quantity'
-p64
-(lp65
-I1
+p61
+(lp62
+I10
 asS'Description'
-p66
-(lp67
-S"Macbook Air 13' with retina display"
-p68
+p63
+(lp64
+S'13.3"'
+p65
 assI2
-(dp69
-S'Product Name'
+(dp66
+S'Customer Information'
+p67
+(dp68
+S'Email'
+p69
+g36
+sg22
+g23
+sg33
+g34
+sS'Name'
 p70
-(lp71
-S'Macbook Air'
+g20
+sS'Address'
+p71
+S'W-97, GK-2'
 p72
-asS'Product Code'
+ssS'Product Code'
 p73
 (lp74
 S'1'
@@ -150,911 +153,29 @@ p75
 asS'Price'
 p76
 (lp77
-I100989
+I50000
 asS'Salesperson id'
 p78
 I1
 sS'Total amount of sales'
 p79
-I201978
-sS'Customer Information'
+I500000
+sS'Product Name'
 p80
-(dp81
-S'City'
+(lp81
+S'Macbook Air'
 p82
-S'weeww'
+asS'Date'
 p83
-sS'Name'
+S'01/09/2016'
 p84
-S'tgrvfd'
+sS'Description'
 p85
-sS'Phone Number'
-p86
-S'tgth'
+(lp86
+S'13.3"'
 p87
-sS'Email'
+asS'Quantity'
 p88
-S'5tge'
-p89
-sS'Address'
-p90
-S'fgdvdfv, fvfdv'
-p91
-ssS'Date'
-p92
-S'12/08/2016'
-p93
-sS'Description'
-p94
-(lp95
-S"Macbook Air 13' with retina display"
-p96
-asS'Quantity'
-p97
-(lp98
-I2
-assI3
-(dp99
-S'Description'
-p100
-(lp101
-S'Headphone bose noise cancelling on the ear oe1000000000 with wire and case and manual and etc.......................'
-p102
-asS'Product Code'
-p103
-(lp104
-S'4'
-p105
-asS'Price'
-p106
-(lp107
-I1000
-asS'Shipping'
-p108
-I100
-sS'Product Name'
-p109
-(lp110
-S'Headphones'
-p111
-asS'Salesperson id'
-p112
-I1
-sS'Total amount of sales'
-p113
-I10000
-sS'Customer Information'
-p114
-(dp115
-S'Email'
-p116
-S't'
-p117
-sS'City'
-p118
-S'e'
-p119
-sS'Phone Number'
-p120
-S'r'
-p121
-sS'Name'
-p122
-S'Vishrut'
-p123
-sS'Address'
-p124
-S'q, w'
-p125
-ssS'Date'
-p126
-S'13/08/2016'
-p127
-sS'Quantity'
-p128
-(lp129
+(lp89
 I10
-assI4
-(dp130
-S'Description'
-p131
-(lp132
-S"Macbook Air 13' with retina display"
-p133
-asS'Product Code'
-p134
-(lp135
-S'1'
-p136
-asS'Price'
-p137
-(lp138
-I100989
-asS'Shipping'
-p139
-I0
-sS'Product Name'
-p140
-(lp141
-S'Macbook Air'
-p142
-asS'Salesperson id'
-p143
-I1
-sS'Total amount of sales'
-p144
-I100989
-sS'Customer Information'
-p145
-(dp146
-S'City'
-p147
-S'New DElhi - 110048'
-p148
-sS'Name'
-p149
-S'Vishrut Jaipuria'
-p150
-sS'Phone Number'
-p151
-S'9999335240'
-p152
-sS'Email'
-p153
-S'vishrutjaipuria@gmail.com'
-p154
-sS'Address'
-p155
-S'W - 97, GK - 2'
-p156
-ssS'Date'
-p157
-S'13/08/2016'
-p158
-sS'Quantity'
-p159
-(lp160
-I1
-assI5
-(dp161
-S'Customer Information'
-p162
-(dp163
-S'City'
-p164
-g148
-sS'Address'
-p165
-S'W - 97, GK - 2'
-p166
-sS'Phone Number'
-p167
-g152
-sS'Email'
-p168
-g154
-sS'Name'
-p169
-S'Vishrut Jaipuria'
-p170
-ssS'Description'
-p171
-(lp172
-S"Macbook Air 13' with retina display"
-p173
-asS'Product Code'
-p174
-(lp175
-S'1'
-p176
-asS'Price'
-p177
-(lp178
-I100989
-asS'Shipping'
-p179
-I200
-sS'Salesperson id'
-p180
-I1
-sS'Total amount of sales'
-p181
-I100989
-sS'Product Name'
-p182
-(lp183
-S'Macbook Air'
-p184
-asS'Date'
-p185
-S'13/08/2016'
-p186
-sS'Quantity'
-p187
-(lp188
-I1
-assI6
-(dp189
-S'Product Name'
-p190
-(lp191
-S'Macbook Air'
-p192
-asS'Product Code'
-p193
-(lp194
-S'1'
-p195
-asS'Price'
-p196
-(lp197
-I100989
-asS'Salesperson id'
-p198
-I1
-sS'Total amount of sales'
-p199
-I100989
-sS'Customer Information'
-p200
-(dp201
-S'Email'
-p202
-g154
-sS'City'
-p203
-g148
-sS'Phone Number'
-p204
-g152
-sS'Name'
-p205
-S'Vishrut Jaipuria'
-p206
-sS'Address'
-p207
-S'W - 97, GK - 2'
-p208
-ssS'Date'
-p209
-S'13/08/2016'
-p210
-sS'Description'
-p211
-(lp212
-S"Macbook Air 13' with retina display"
-p213
-asS'Quantity'
-p214
-(lp215
-I1
-assI7
-(dp216
-S'Product Name'
-p217
-(lp218
-S'Macbook Air'
-p219
-aS'Headphones'
-p220
-asS'Product Code'
-p221
-(lp222
-S'1'
-p223
-aS'4'
-p224
-asS'Price'
-p225
-(lp226
-I100989
-aI1000
-asS'Salesperson id'
-p227
-I1
-sS'Total amount of sales'
-p228
-I202978
-sS'Customer Information'
-p229
-(dp230
-S'City'
-p231
-g148
-sS'Address'
-p232
-S'W - 97, GK - 2'
-p233
-sS'Phone Number'
-p234
-g152
-sS'Name'
-p235
-S'Vishrut Jaipuria'
-p236
-sS'Email'
-p237
-g154
-ssS'Date'
-p238
-S'13/08/2016'
-p239
-sS'Quantity'
-p240
-(lp241
-I2
-aI1
-asS'Description'
-p242
-(lp243
-S"Macbook Air 13' with retina display"
-p244
-aS'Headphone bose noise cancelling on the ear oe1000000000 with wire and case and manual and etc.......................'
-p245
-assI8
-(dp246
-S'Product Name'
-p247
-(lp248
-S'Nexus 5X'
-p249
-asS'Product Code'
-p250
-(lp251
-S'2'
-p252
-asS'Price'
-p253
-(lp254
-I1231242
-asS'Salesperson id'
-p255
-I1
-sS'Total amount of sales'
-p256
-I1231242
-sS'Customer Information'
-p257
-(dp258
-S'City'
-p259
-g148
-sS'Name'
-p260
-S'Vishrut Jaipuria'
-p261
-sS'Phone Number'
-p262
-g152
-sS'Email'
-p263
-g154
-sS'Address'
-p264
-S'W - 97, GK - 2'
-p265
-ssS'Date'
-p266
-S'13/08/2016'
-p267
-sS'Description'
-p268
-(lp269
-S'Nexus 5X'
-p270
-asS'Quantity'
-p271
-(lp272
-I1
-assI9
-(dp273
-S'Product Name'
-p274
-(lp275
-S'Macbook Air'
-p276
-asS'Product Code'
-p277
-(lp278
-S'1'
-p279
-asS'Price'
-p280
-(lp281
-I100989
-asS'Salesperson id'
-p282
-I1
-sS'Total amount of sales'
-p283
-I100989
-sS'Customer Information'
-p284
-(dp285
-S'City'
-p286
-g148
-sS'Address'
-p287
-S'W - 97, GK - 2'
-p288
-sS'Phone Number'
-p289
-g152
-sS'Email'
-p290
-g154
-sS'Name'
-p291
-S'Vishrut Jaipuria'
-p292
-ssS'Date'
-p293
-S'13/08/2016'
-p294
-sS'Quantity'
-p295
-(lp296
-I1
-asS'Description'
-p297
-(lp298
-S"Macbook Air 13' with retina display"
-p299
-assI10
-(dp300
-S'Product Name'
-p301
-(lp302
-S'Headphones'
-p303
-asS'Product Code'
-p304
-(lp305
-S'4'
-p306
-asS'Price'
-p307
-(lp308
-I1000
-asS'Salesperson id'
-p309
-I1
-sS'Total amount of sales'
-p310
-I1000
-sS'Customer Information'
-p311
-(dp312
-S'Email'
-p313
-g154
-sS'City'
-p314
-g148
-sS'Phone Number'
-p315
-g152
-sS'Name'
-p316
-S'Vishrut Jaipuria'
-p317
-sS'Address'
-p318
-S'W - 97, GK - 2'
-p319
-ssS'Date'
-p320
-S'13/08/2016'
-p321
-sS'Description'
-p322
-(lp323
-S'Headphone bose noise cancelling on the ear oe1000000000 with wire and case and manual and etc.......................'
-p324
-asS'Quantity'
-p325
-(lp326
-I1
-assI11
-(dp327
-S'Product Name'
-p328
-(lp329
-S'Macbook Air'
-p330
-asS'Product Code'
-p331
-(lp332
-S'1'
-p333
-asS'Price'
-p334
-(lp335
-I100989
-asS'Salesperson id'
-p336
-I1
-sS'Total amount of sales'
-p337
-I100989
-sS'Customer Information'
-p338
-(dp339
-S'City'
-p340
-g23
-sS'Address'
-p341
-S'W - 97, GK - 2'
-p342
-sS'Phone Number'
-p343
-g34
-sS'Name'
-p344
-S'Vishrut'
-p345
-sS'Email'
-p346
-g36
-ssS'Date'
-p347
-S'14/08/2016'
-p348
-sS'Quantity'
-p349
-(lp350
-I1
-asS'Description'
-p351
-(lp352
-S"Macbook Air 13' with retina display"
-p353
-assI12
-(dp354
-S'Product Name'
-p355
-(lp356
-S'Headphones'
-p357
-asS'Product Code'
-p358
-(lp359
-S'4'
-p360
-asS'Price'
-p361
-(lp362
-I1000
-asS'Salesperson id'
-p363
-I1
-sS'Total amount of sales'
-p364
-I1000
-sS'Customer Information'
-p365
-(dp366
-S'City'
-p367
-g23
-sS'Name'
-p368
-S'Vishrut'
-p369
-sS'Phone Number'
-p370
-g34
-sS'Email'
-p371
-g36
-sS'Address'
-p372
-S'W - 97, GK - 2'
-p373
-ssS'Date'
-p374
-S'14/08/2016'
-p375
-sS'Description'
-p376
-(lp377
-S'Headphone bose noise cancelling on the ear oe1000000000 with wire and case and manual and etc.......................'
-p378
-asS'Quantity'
-p379
-(lp380
-I1
-assI13
-(dp381
-S'Product Name'
-p382
-(lp383
-S'Nexus 5X'
-p384
-aS'CK Spectacles'
-p385
-asS'Product Code'
-p386
-(lp387
-S'1'
-p388
-aS'5'
-p389
-asS'Price'
-p390
-(lp391
-I1231242
-aI10000
-asS'Salesperson id'
-p392
-I1
-sS'Total amount of sales'
-p393
-I123224200
-sS'Customer Information'
-p394
-(dp395
-S'Email'
-p396
-g36
-sS'City'
-p397
-g23
-sS'Phone Number'
-p398
-g34
-sS'Name'
-p399
-S'Vishrut'
-p400
-sS'Address'
-p401
-S'W - 97, GK - 2'
-p402
-ssS'Date'
-p403
-S'31/08/2016'
-p404
-sS'Description'
-p405
-(lp406
-S'Nexus 5X'
-p407
-aS'Black specs full plastic big size lightweight cheap with box and lens cleaner cloth and solution'
-p408
-asS'Quantity'
-p409
-(lp410
-I100
-aI10
-assI14
-(dp411
-S'Product Name'
-p412
-(lp413
-S'Nexus 5X'
-p414
-aS'CK Spectacles'
-p415
-asS'Product Code'
-p416
-(lp417
-S'1'
-p418
-aS'5'
-p419
-asS'Price'
-p420
-(lp421
-I1231242
-aI10000
-asS'Salesperson id'
-p422
-I1
-sS'Total amount of sales'
-p423
-I12322420
-sS'Customer Information'
-p424
-(dp425
-S'City'
-p426
-g23
-sS'Address'
-p427
-S'W - 97, GK - 2'
-p428
-sS'Phone Number'
-p429
-g34
-sS'Name'
-p430
-S'Vishrut'
-p431
-sS'Email'
-p432
-g36
-ssS'Date'
-p433
-S'31/08/2016'
-p434
-sS'Quantity'
-p435
-(lp436
-I10
-aI1
-asS'Description'
-p437
-(lp438
-S'Nexus 5X'
-p439
-aS'Black specs full plastic big size lightweight cheap with box and lens cleaner cloth and solution'
-p440
-assI15
-(dp441
-S'Product Name'
-p442
-(lp443
-S'Nexus 5X'
-p444
-asS'Product Code'
-p445
-(lp446
-S'1'
-p447
-asS'Price'
-p448
-(lp449
-I100000
-asS'Salesperson id'
-p450
-I1
-sS'Total amount of sales'
-p451
-I1000000
-sS'Customer Information'
-p452
-(dp453
-S'City'
-p454
-g23
-sS'Name'
-p455
-S'Vishrut'
-p456
-sS'Phone Number'
-p457
-g34
-sS'Email'
-p458
-g36
-sS'Address'
-p459
-S'W - 97, GK - 2'
-p460
-ssS'Date'
-p461
-S'31/08/2016'
-p462
-sS'Description'
-p463
-(lp464
-S'Nexus 5X'
-p465
-asS'Quantity'
-p466
-(lp467
-I10
-assI16
-(dp468
-S'Product Name'
-p469
-(lp470
-S'Nexus 5X'
-p471
-asS'Product Code'
-p472
-(lp473
-S'1'
-p474
-asS'Price'
-p475
-(lp476
-I100000
-asS'Salesperson id'
-p477
-I1
-sS'Total amount of sales'
-p478
-I100000
-sS'Customer Information'
-p479
-(dp480
-S'City'
-p481
-g23
-sS'Address'
-p482
-S'W - 97, GK - 2'
-p483
-sS'Phone Number'
-p484
-g34
-sS'Email'
-p485
-g36
-sS'Name'
-p486
-S'Vishrut'
-p487
-ssS'Date'
-p488
-S'31/08/2016'
-p489
-sS'Quantity'
-p490
-(lp491
-I1
-asS'Description'
-p492
-(lp493
-S'Nexus 5X'
-p494
-assI17
-(dp495
-S'Customer Information'
-p496
-(dp497
-S'Email'
-p498
-g36
-sS'City'
-p499
-g23
-sS'Phone Number'
-p500
-g34
-sS'Name'
-p501
-S'Vishrut'
-p502
-sS'Address'
-p503
-S'W - 97, GK - 2'
-p504
-ssS'Product Code'
-p505
-(lp506
-S'1'
-p507
-asS'Price'
-p508
-(lp509
-I100000
-asS'Salesperson id'
-p510
-I1
-sS'Total amount of sales'
-p511
-I100000
-sS'Product Name'
-p512
-(lp513
-S'Nexus 5X'
-p514
-asS'Date'
-p515
-S'31/08/2016'
-p516
-sS'Description'
-p517
-(lp518
-S'Nexus 5X'
-p519
-asS'Quantity'
-p520
-(lp521
-I1
 asss.
