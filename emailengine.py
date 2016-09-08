@@ -7,8 +7,8 @@ def emailit(to,filename):
 
     msg = MIMEMultipart()
     msg['Subject'] = 'Invoice - Sales Management System'
-    msg['From'] = 'sms@prateekvachher.in'
-    msg['Reply-to'] = 'sms@prateekvachher.in'
+    msg['From'] = 'sms@prateekv.com'
+    msg['Reply-to'] = 'sms@prateekv.com'
     msg['To'] = to
 
     # That is what u see if dont have an email reader:
@@ -27,7 +27,7 @@ def emailit(to,filename):
     smtp = SMTP("host5.dnsinweb.com")
     # Start the server:
     smtp.ehlo()
-    smtp.login("sms@prateekvachher.in", "Welcome123")
+    smtp.login("sms@prateekv.com", "Welcome123")
 
     # Send the email
     smtp.sendmail(msg['From'], msg['To'], msg.as_string())
