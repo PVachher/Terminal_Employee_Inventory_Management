@@ -417,6 +417,9 @@ class inventory(object):
                 customerno = d1['Phone Number']
                 customeremail = d1['email']
                 customercity = d1['City']
+            else:
+                print 'Customer does not exist'
+                self.entersales()
 
         tdict = {}
         self.today = time.strftime("%d/%m/%Y")
@@ -508,8 +511,6 @@ class inventory(object):
         for x in range(len(l1)):
             totalprice += l3[x] * l2[x]
         tempdict['Total amount of sales'] = totalprice
-
-        globalcompanydatabase['Customers'][customername]['rewardpoints'] += totalprice * 2 / 100
         
         d[self.count] = tempdict
         count1 = 0
