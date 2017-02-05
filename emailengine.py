@@ -24,7 +24,7 @@ def emailit(to,filename):
     msg.attach(part)
 
     # Create an instance in SMTP server
-    smtp = SMTP("host5.dnsinweb.com")
+    smtp = SMTP("server27.hostingraja.in")
     # Start the server:
     smtp.ehlo()
     smtp.login("sms@prateekv.com", "Welcome123")

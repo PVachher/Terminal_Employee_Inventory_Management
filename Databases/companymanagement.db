@@ -2,12 +2,12 @@
 S'Customers'
 p1
 (dp2
-S'Manu Jaipuria'
+S'ABC'
 p3
 (dp4
 S'City'
 p5
-S'New Delhi'
+S'Dek'
 p6
 sS'Salesrecord'
 p7
@@ -15,43 +15,42 @@ p7
 S'Bills'
 p9
 (lp10
-I1
+I10
 asS'Total sales'
 p11
-I510100
+I51000
 ssS'address1'
 p12
-S'W-97'
+S'123'
 p13
 sS'address2'
 p14
-S'GK-2'
+S'123'
 p15
 sS'Phone Number'
 p16
-S'9810035735'
+S'123'
 p17
-sS'email'
+sS'rewardpoints'
 p18
-S'vishrutjai@gmail.com'
+I1000
+sS'email'
 p19
-ssS'Vishrut Jaipuria'
+S'ok@gmail.com'
 p20
-(dp21
+ssS'Vishrut J'
+p21
+(dp22
 S'City'
-p22
-S'New Delhi'
 p23
-sS'Salesrecord'
+S'ND'
 p24
-(dp25
+sS'Salesrecord'
+p25
+(dp26
 S'Bills'
-p26
-(lp27
-I2
-asS'Total sales'
-p28
-I510100
+p27
+(lp28
 ssS'address1'
 p29
 S'W-97'
@@ -68,114 +67,881 @@ sS'email'
 p35
 S'vishrut1998@gmail.com'
 p36
-sssS'sales'
+ssS'Vishrut Jaipuria'
 p37
 (dp38
-I1
-(dp39
-S'Product Name'
+S'City'
+p39
+S'New Delhi'
 p40
-(lp41
-S'Macbook Air'
-p42
-asS'Product Code'
+sS'Salesrecord'
+p41
+(dp42
+S'Bills'
 p43
 (lp44
-S'1'
+I2
+asS'Total sales'
 p45
-asS'Price'
+I510100
+ssS'address1'
 p46
-(lp47
+S'W-97'
+p47
+sS'address2'
+p48
+S'GK-2'
+p49
+sS'Phone Number'
+p50
+S'9999335240'
+p51
+sS'email'
+p52
+S'vishrut1998@gmail.com'
+p53
+ssS'Vishrut'
+p54
+(dp55
+S'City'
+p56
+S'ND-110048'
+p57
+sS'Salesrecord'
+p58
+(dp59
+S'Bills'
+p60
+(lp61
+I3
+aI5
+aI6
+aI7
+aI8
+aI9
+aI11
+aI12
+aI13
+asS'Total sales'
+p62
+I1720220
+ssS'address1'
+p63
+S'W-97'
+p64
+sS'address2'
+p65
+S'GK-2'
+p66
+sS'Phone Number'
+p67
+S'9999335240'
+p68
+sS'rewardpoints'
+p69
+I33720
+sS'email'
+p70
+S'vishrutjaipuria@gmail.com'
+p71
+ssS'Prateek Vachher'
+p72
+(dp73
+S'City'
+p74
+S'New Delhi'
+p75
+sS'Salesrecord'
+p76
+(dp77
+S'Bills'
+p78
+(lp79
+I4
+asS'Total sales'
+p80
+I91800
+ssS'address1'
+p81
+S'B-17, 3rd Floor'
+p82
+sS'address2'
+p83
+S'Greater Kailash Enclave 2'
+p84
+sS'Phone Number'
+p85
+S'9654360244'
+p86
+sS'rewardpoints'
+p87
+I1800
+sS'email'
+p88
+S'vachherprateek@gmail.com'
+p89
+ssS'Manu Jaipuria'
+p90
+(dp91
+S'City'
+p92
+S'New Delhi'
+p93
+sS'Salesrecord'
+p94
+(dp95
+S'Bills'
+p96
+(lp97
+I1
+asS'Total sales'
+p98
+I510100
+ssS'address1'
+p99
+S'W-97'
+p100
+sS'address2'
+p101
+S'GK-2'
+p102
+sS'Phone Number'
+p103
+S'9810035735'
+p104
+sS'email'
+p105
+S'vishrutjai@gmail.com'
+p106
+sssS'sales'
+p107
+(dp108
+I1
+(dp109
+S'Product Name'
+p110
+(lp111
+S'Macbook Air'
+p112
+asS'Product Code'
+p113
+(lp114
+S'1'
+p115
+asS'Price'
+p116
+(lp117
 I50000
 asS'Salesperson id'
-p48
+p118
 I1
 sS'Total amount of sales'
-p49
+p119
 I500000
 sS'Customer Information'
-p50
-(dp51
+p120
+(dp121
 S'City'
-p52
-g6
-sS'Address'
-p53
-S'W-97, GK-2'
-p54
-sS'Phone Number'
-p55
-g17
-sS'Email'
-p56
-g19
+p122
+g93
 sS'Name'
-p57
+p123
 S'Manu Jaipuria'
-p58
-ssS'Date'
-p59
-S'01/09/2016'
-p60
-sS'Quantity'
-p61
-(lp62
-I10
-asS'Description'
-p63
-(lp64
-S'13.3"'
-p65
-assI2
-(dp66
-S'Customer Information'
-p67
-(dp68
-S'Email'
-p69
-g36
-sg22
-g23
-sg33
-g34
-sS'Name'
-p70
-g20
+p124
+sS'Phone Number'
+p125
+g104
+sS'Email'
+p126
+g106
 sS'Address'
-p71
+p127
 S'W-97, GK-2'
-p72
-ssS'Product Code'
-p73
-(lp74
+p128
+ssS'Date'
+p129
+S'01/09/2016'
+p130
+sS'Description'
+p131
+(lp132
+S'13.3"'
+p133
+asS'Quantity'
+p134
+(lp135
+I10
+assI2
+(dp136
+S'Product Name'
+p137
+(lp138
+S'Macbook Air'
+p139
+asS'Product Code'
+p140
+(lp141
 S'1'
-p75
+p142
 asS'Price'
-p76
-(lp77
+p143
+(lp144
 I50000
 asS'Salesperson id'
-p78
+p145
 I1
 sS'Total amount of sales'
-p79
+p146
 I500000
-sS'Product Name'
-p80
-(lp81
-S'Macbook Air'
-p82
-asS'Date'
-p83
+sS'Customer Information'
+p147
+(dp148
+g39
+g40
+sS'Address'
+p149
+S'W-97, GK-2'
+p150
+sg50
+g51
+sS'Email'
+p151
+g53
+sS'Name'
+p152
+g37
+ssS'Date'
+p153
 S'01/09/2016'
-p84
-sS'Description'
-p85
-(lp86
-S'13.3"'
-p87
-asS'Quantity'
-p88
-(lp89
+p154
+sS'Quantity'
+p155
+(lp156
 I10
+asS'Description'
+p157
+(lp158
+S'13.3"'
+p159
+assI3
+(dp160
+S'Product Name'
+p161
+(lp162
+S'Macbook Air'
+p163
+asS'Product Code'
+p164
+(lp165
+S'1'
+p166
+asS'Price'
+p167
+(lp168
+I50000
+asS'Salesperson id'
+p169
+I0
+sS'Total amount of sales'
+p170
+I500000
+sS'Customer Information'
+p171
+(dp172
+g56
+g57
+sS'Name'
+p173
+S'Vishrut'
+p174
+sg67
+g68
+sS'Email'
+p175
+g71
+sS'Address'
+p176
+S'W-97, GK-2'
+p177
+ssS'Date'
+p178
+S'22/01/2017'
+p179
+sS'Description'
+p180
+(lp181
+S'13.3"'
+p182
+asS'Quantity'
+p183
+(lp184
+I10
+assI4
+(dp185
+S'Product Name'
+p186
+(lp187
+S'iPhone 7'
+p188
+asS'Product Code'
+p189
+(lp190
+S'123'
+p191
+asS'Price'
+p192
+(lp193
+I45000
+asS'Salesperson id'
+p194
+I0
+sS'Total amount of sales'
+p195
+I90000
+sS'Customer Information'
+p196
+(dp197
+g74
+g75
+sS'Address'
+p198
+S'B-17, 3rd Floor, Greater Kailash Enclave 2'
+p199
+sg85
+g86
+sS'Email'
+p200
+g89
+sS'Name'
+p201
+g72
+ssS'Date'
+p202
+S'22/01/2017'
+p203
+sS'Quantity'
+p204
+(lp205
+I2
+asS'Description'
+p206
+(lp207
+S'32GB'
+p208
+assI5
+(dp209
+S'Product Name'
+p210
+(lp211
+S'Earphones'
+p212
+aS'iPhone 7'
+p213
+asS'Product Code'
+p214
+(lp215
+S'2'
+p216
+aS'123'
+p217
+asS'Price'
+p218
+(lp219
+I3000
+aI45000
+asS'Salesperson id'
+p220
+I0
+sS'Total amount of sales'
+p221
+I75000
+sS'Customer Information'
+p222
+(dp223
+S'Email'
+p224
+g71
+sS'City'
+p225
+g57
+sS'Phone Number'
+p226
+g68
+sS'Name'
+p227
+S'Vishrut'
+p228
+sS'Address'
+p229
+S'W-97, GK-2'
+p230
+ssS'Date'
+p231
+S'23/01/2017'
+p232
+sS'Description'
+p233
+(lp234
+S'Long, black earphones with mic great sound, bass, tangle free with extra silicon covers, 3.5mm headphone jack, and case'
+p235
+aS'32GB'
+p236
+asS'Quantity'
+p237
+(lp238
+I10
+aI1
+assI6
+(dp239
+S'Product Name'
+p240
+(lp241
+S'Earphones'
+p242
+aS'iPhone 7'
+p243
+asS'Product Code'
+p244
+(lp245
+S'2'
+p246
+aS'123'
+p247
+asS'Price'
+p248
+(lp249
+I3000
+aI45000
+asS'Salesperson id'
+p250
+I0
+sS'Total amount of sales'
+p251
+I75000
+sS'Customer Information'
+p252
+(dp253
+S'City'
+p254
+g57
+sS'Address'
+p255
+S'W-97, GK-2'
+p256
+sS'Phone Number'
+p257
+g68
+sS'Name'
+p258
+S'Vishrut'
+p259
+sS'Email'
+p260
+g71
+ssS'Date'
+p261
+S'23/01/2017'
+p262
+sS'Quantity'
+p263
+(lp264
+I10
+aI1
+asS'Description'
+p265
+(lp266
+S'Long, black earphones with mic great sound, bass, tangle free with extra silicon covers, 3.5mm headphone jack, and case'
+p267
+aS'32GB'
+p268
+assI7
+(dp269
+S'Product Name'
+p270
+(lp271
+S'Earphones'
+p272
+aS'iPhone 7'
+p273
+asS'Product Code'
+p274
+(lp275
+S'2'
+p276
+aS'123'
+p277
+asS'Price'
+p278
+(lp279
+I3000
+aI45000
+asS'Salesperson id'
+p280
+I0
+sS'Total amount of sales'
+p281
+I435000
+sS'Customer Information'
+p282
+(dp283
+S'City'
+p284
+g57
+sS'Name'
+p285
+S'Vishrut'
+p286
+sS'Phone Number'
+p287
+g68
+sS'Email'
+p288
+g71
+sS'Address'
+p289
+S'W-97, GK-2'
+p290
+ssS'Date'
+p291
+S'23/01/2017'
+p292
+sS'Description'
+p293
+(lp294
+S'Long, black earphones with mic great sound, bass, tangle free with extra silicon covers, 3.5mm headphone jack, and case'
+p295
+aS'32GB'
+p296
+asS'Quantity'
+p297
+(lp298
+I100
+aI3
+assI8
+(dp299
+S'Product Name'
+p300
+(lp301
+S'iPhone 7'
+p302
+asS'Product Code'
+p303
+(lp304
+S'123'
+p305
+asS'Price'
+p306
+(lp307
+I45000
+asS'Salesperson id'
+p308
+I1
+sS'Total amount of sales'
+p309
+I45000
+sS'Customer Information'
+p310
+(dp311
+S'City'
+p312
+g57
+sS'Address'
+p313
+S'W-97, GK-2'
+p314
+sS'Phone Number'
+p315
+g68
+sS'Email'
+p316
+g71
+sS'Name'
+p317
+S'Vishrut'
+p318
+ssS'Date'
+p319
+S'27/01/2017'
+p320
+sS'Quantity'
+p321
+(lp322
+I1
+asS'Description'
+p323
+(lp324
+S'32GB'
+p325
+assI9
+(dp326
+S'Product Name'
+p327
+(lp328
+S'Macbook Air'
+p329
+asS'Product Code'
+p330
+(lp331
+S'1'
+p332
+asS'Price'
+p333
+(lp334
+I50000
+asS'Salesperson id'
+p335
+I1
+sS'Total amount of sales'
+p336
+I500000
+sS'Customer Information'
+p337
+(dp338
+S'Email'
+p339
+g71
+sS'City'
+p340
+g57
+sS'Phone Number'
+p341
+g68
+sS'Name'
+p342
+S'Vishrut'
+p343
+sS'Address'
+p344
+S'W-97, GK-2'
+p345
+ssS'Date'
+p346
+S'27/01/2017'
+p347
+sS'Description'
+p348
+(lp349
+S'13.3"'
+p350
+asS'Quantity'
+p351
+(lp352
+I10
+assI10
+(dp353
+S'Product Name'
+p354
+(lp355
+S'Macbook Air'
+p356
+asS'Product Code'
+p357
+(lp358
+S'1'
+p359
+asS'Price'
+p360
+(lp361
+I50000
+asS'Salesperson id'
+p362
+I1
+sS'Total amount of sales'
+p363
+I50000
+sS'Customer Information'
+p364
+(dp365
+g5
+g6
+sS'Address'
+p366
+S'123, 123'
+p367
+sg16
+g17
+sS'Name'
+p368
+g3
+sS'Email'
+p369
+g20
+ssS'Date'
+p370
+S'05/02/2017'
+p371
+sS'Quantity'
+p372
+(lp373
+I1
+asS'Description'
+p374
+(lp375
+S'13.3"'
+p376
+assI11
+(dp377
+S'Product Name'
+p378
+(lp379
+S'Earphones'
+p380
+asS'Product Code'
+p381
+(lp382
+S'2'
+p383
+asS'Price'
+p384
+(lp385
+I3000
+asS'Salesperson id'
+p386
+I0
+sS'Total amount of sales'
+p387
+I3000
+sS'Customer Information'
+p388
+(dp389
+S'City'
+p390
+g57
+sS'Name'
+p391
+S'Vishrut'
+p392
+sS'Phone Number'
+p393
+g68
+sS'Email'
+p394
+g71
+sS'Address'
+p395
+S'W-97, GK-2'
+p396
+ssS'Date'
+p397
+S'05/02/2017'
+p398
+sS'Description'
+p399
+(lp400
+S'Long, black earphones with mic great sound, bass, tangle free with extra silicon covers, 3.5mm headphone jack, and case'
+p401
+asS'Quantity'
+p402
+(lp403
+I1
+assI12
+(dp404
+S'Product Name'
+p405
+(lp406
+S'Earphones'
+p407
+asS'Product Code'
+p408
+(lp409
+S'2'
+p410
+asS'Price'
+p411
+(lp412
+I3000
+asS'Salesperson id'
+p413
+I0
+sS'Total amount of sales'
+p414
+I3000
+sS'Customer Information'
+p415
+(dp416
+S'City'
+p417
+g57
+sS'Address'
+p418
+S'W-97, GK-2'
+p419
+sS'Phone Number'
+p420
+g68
+sS'Email'
+p421
+g71
+sS'Name'
+p422
+S'Vishrut'
+p423
+ssS'Date'
+p424
+S'05/02/2017'
+p425
+sS'Quantity'
+p426
+(lp427
+I1
+asS'Description'
+p428
+(lp429
+S'Long, black earphones with mic great sound, bass, tangle free with extra silicon covers, 3.5mm headphone jack, and case'
+p430
+assI13
+(dp431
+S'Customer Information'
+p432
+(dp433
+S'Email'
+p434
+g71
+sS'City'
+p435
+g57
+sS'Phone Number'
+p436
+g68
+sS'Name'
+p437
+S'Vishrut'
+p438
+sS'Address'
+p439
+S'W-97, GK-2'
+p440
+ssS'Product Code'
+p441
+(lp442
+S'1'
+p443
+asS'Price'
+p444
+(lp445
+I50000
+asS'Salesperson id'
+p446
+I1
+sS'Total amount of sales'
+p447
+I50000
+sS'Product Name'
+p448
+(lp449
+S'Macbook Air'
+p450
+asS'Date'
+p451
+S'05/02/2017'
+p452
+sS'Description'
+p453
+(lp454
+S'13.3"'
+p455
+asS'Quantity'
+p456
+(lp457
+I1
 asss.

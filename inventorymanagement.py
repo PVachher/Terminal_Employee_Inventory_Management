@@ -31,8 +31,8 @@ class inventory(object):
     def menu(self):
         mainmenu = ['1. Add Stocks','2. Remove Stocks','3. Add New Product','4. Remove Product','5. To add new customer information','6. Make Sales','7. Edit Information',
                     '8. Search Inventory','9. View Inventory','10. Search Sales Records',
-                    '11. View full value of stocks','12. To check sales between 2 dates','13. To check sales for a specific date',
-                    '14. To view customer information','15. Go Back']
+                    '11. Stock evaluation','12. Search sales between 2 dates','13. Search sales for a specific date',
+                    '14. Customer information','15. Go Back']
         print
         print '______________________________ Inventory Menu _______________________________'
         print ""
@@ -356,6 +356,7 @@ class inventory(object):
         tempdict['Phone Number'] = customerno
         tempdict['email'] = customeremail
         tempdict['Salesrecord'] = {}
+        tempdict['Salesrecord']['Bills'] = []
         globalcompanydatabase['Customers'][customername] = tempdict
         print
         print 'Successfully added new customer'
@@ -403,6 +404,7 @@ class inventory(object):
                 globalcompanydatabase['Customers'][customername]['Salesrecord'] = {}
                 globalcompanydatabase['Customers'][customername]['Salesrecord']['Bills'] = []
                 globalcompanydatabase['Customers'][customername]['Salesrecord']['Total sales'] = 0
+                globalcompanydatabase['Customers'][customername]['rewardpoints'] = 0
                 print 'Customer Information saved'
                 print
 
@@ -419,7 +421,7 @@ class inventory(object):
         tdict = {}
         self.today = time.strftime("%d/%m/%Y")
         tdict['Name'] = customername
-        tdict['Address'] = customeradd1 +', ' + customeradd2
+        tdict['Address'] = customeradd1 + ', ' + customeradd2
         tdict['City'] = customercity
         tdict['Phone Number'] = customerno
         tdict['Email'] = customeremail
@@ -439,11 +441,13 @@ class inventory(object):
             print 'Employee id does not exist'
             self.salespersonid = (input("Employee ID: "))
         tempdict['Salesperson id'] = self.salespersonid
+
         while chr == 'Y':
             prcode = raw_input('Product Code: ')
             d1 = self.existancecheckercode(prcode)
             if d1[0] == True:
-                print "Price: ", globalinventorydatabase[d1[1]]['SP']
+                print "Price   : ", globalinventorydatabase[d1[1]]['SP']
+                print 'Quantity: ', globalinventorydatabase[d1[1]]['Quantity']
                 quantity = input('Quantity: ')
                 if self.quantitychecker(d1[1],quantity) == True:
                         l5.append(d1[1])
@@ -455,9 +459,19 @@ class inventory(object):
                         l6.append(globalinventorydatabase[d1[1]]['Description'])
                 else:
                     print 'Stock going negative'
-                    self.reedit()
-                    if self.reedit() == 2:
-                        self.entersales()
+                    print '1. To re-enter stocks\n2. Continue entering other products\n3. Generate bill\n4. Go back to main menu'
+                    choice = input('Choice(1/2/3/4): ')
+                    if choice == 1:
+                        chr = 'Y'
+                        continue
+                    elif choice == 2:
+                        chr = 'Y'
+                        continue
+                    elif choice == 3:
+                        break
+                    else:
+                        self.menu()
+
             else:
                 print 'The product does not exist'
                 print '1. To go to main menu\n2. To go to enter customer information again\n3. To continue entering product names'
@@ -494,6 +508,9 @@ class inventory(object):
         for x in range(len(l1)):
             totalprice += l3[x] * l2[x]
         tempdict['Total amount of sales'] = totalprice
+
+        globalcompanydatabase['Customers'][customername]['rewardpoints'] += totalprice * 2 / 100
+        
         d[self.count] = tempdict
         count1 = 0
         temp['Total sales'] += totalprice + (totalprice * 2 / 100) + self.shipping
@@ -590,7 +607,7 @@ class inventory(object):
 
                         string101 += string102[xy] + ' '
                         string100.remove(string102[xy])
-                string += ' ' * 7
+                string += ' ' * 11
                 flag = 1
 
             string += str(d['Quantity'][x])
@@ -653,7 +670,7 @@ class inventory(object):
         os.rename('BillsGenerated/hello2.txt',"BillsGenerated/Bill Number- "+ str(self.count)+".txt")
         emailit(globalcompanydatabase['sales'][self.count]['Customer Information']['Email'],self.count)
         print
-        print 'Bill Generated'
+        print 'Bill Generated and sent to customer'
         self.menu()
 
     #######################################################################################################################################
@@ -1025,6 +1042,7 @@ class inventory(object):
             fullprice += (globalinventorydatabase[x]['Quantity'] * globalinventorydatabase[x]['SP'])
         print 'Value of all stocks is : Rs.',fullprice
         print 'Quantity of stocks is  :',fullquantity,'piece[s]'
+        self.menu()
 
     #######################################################################################################################################
 
@@ -1171,7 +1189,7 @@ class inventory(object):
         while chr1 == 'y':
                 date = raw_input('Enter date in the format : DD/MM/YYYY : ')
                 if date[0:2].isdigit() and date[2] == '/' and date[3:5].isdigit() and date[5] == '/' and date[6:10].isdigit():
-                    if date[0:2] <= '31' and date[3:5] <= '12' and date[6:-1] <= '2016':
+                    if date[0:2] <= '31' and date[3:5] <= '12' and date[6:-1] <= '2018':
                         chr1 = 'n'
                     else:
                         chr1 = 'y'
@@ -1231,19 +1249,23 @@ class inventory(object):
         print
         globalcompanydatabase = pickle.load(open("Databases/companymanagement.db", "rb"))
         name = raw_input('Enter customer name: ')
-        tempdict = globalcompanydatabase['Customers'][name]
-        print 'Name         :',name
-        print 'Address      :',tempdict['address1'] + tempdict['address2']
-        print 'City         :',tempdict['City']
-        print 'Phone Number :',tempdict['Phone Number']
-        print 'Email Id     :',tempdict['email']
-        print
-        print 'Sales Record :-'
-        print '    Bill Numbers   :',
-        for x in tempdict['Salesrecord']['Bills']:
-            print x,',',
-        print
-        print '    Total Purchase :',tempdict['Salesrecord']['Total sales']
+        if name in globalcompanydatabase['Customers']:
+            tempdict = globalcompanydatabase['Customers'][name]
+            print 'Name         :',name
+            print 'Address      :',tempdict['address1'] + ', ' + tempdict['address2']
+            print 'City         :',tempdict['City']
+            print 'Phone Number :',tempdict['Phone Number']
+            print 'Email Id     :',tempdict['email']
+
+            print
+            print 'Sales Record :-'
+            print '    Bill Numbers   :',
+            for x in tempdict['Salesrecord']['Bills']:
+                print x,',',
+            print
+            print '    Total Purchase :',tempdict['Salesrecord']['Total sales']
+        else:
+            print 'Customer does not exist'
         self.menu()
 
     #######################################################################################################################################

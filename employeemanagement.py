@@ -154,7 +154,7 @@ def searchid(userid):
 
 def getid():
     import pymysql
-    db = pymysql.connect("52.66.105.87", "root", "Welcome123", "sms")
+    db = pymysql.connect('52.66.149.217', 'root', 'root', 'sms')
     cursor = db.cursor()
     sql = "SELECT * FROM employee_id"
     try:
@@ -167,7 +167,7 @@ def getid():
 
 def updateid():
     import pymysql
-    db = pymysql.connect("52.66.105.87", "root", "Welcome123", "sms")
+    db = pymysql.connect('52.66.149.217', 'root', 'root', 'sms')
     cursor = db.cursor()
     sql = "UPDATE employee_id set id=id+1"
     try:
@@ -345,4 +345,7 @@ while True:
     elif mainmenu1var == 2:
         a = inventory()
         a.menu()
+
+    elif mainmenu1var == 0:
+        break
 

@@ -1,0 +1,37 @@
+                                         Retail  Invoice
+
+Customer Information:                                    Company Information:
+Prateek Vachher                                          Inventory
+B-17, 3rd Floor, Greater Kailash Enclave 2               W - 97, Greater Kailash - 2
+New Delhi                                                New Delhi - 110048
+9654360244                                               Telephone Number - +919999335240
+vachherprateek@gmail.com                                 E-mail - vishrutjaipuria@gmail.com
+                                                         Tin number - 1111111111
+
+Invoice Number : 4
+Date :  22/01/2017
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+ S.NO  Product Code    Description                             Quantity   Price Per Unit   Total Price
+—————————————————————————————————————————————————————————————————————————————————————————————————————-
+
+   1         123       32GB                                      2          45000             90000
+
+
+
+                                                                             Total       : Rs.90000
+                                                                             Taxes       : Rs.1800
+                                                                             ————————————————————————-
+                                                                             Grand Total : Rs.91800
+                                                                             ————————————————————————-
+
+
+
+Payment terms
+Payment within 30 days via money transfer only to the following account:
+Inventory Management
+Sort Code: 123
+Account No: 123456789
+
+Terms and Conditions :-
+1. Goods once sold will not be returned. 
+2. Goods despatched at customer's risk.3. Disputes subject to Delhi Jurisdiction.

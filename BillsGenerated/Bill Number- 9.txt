@@ -1,0 +1,37 @@
+                                         Retail  Invoice
+
+Customer Information:                                    Company Information:
+Vishrut                                                  Inventory
+W-97, GK-2                                               W - 97, Greater Kailash - 2
+ND-110048                                                New Delhi - 110048
+9999335240                                               Telephone Number - +919999335240
+vishrutjaipuria@gmail.com                                E-mail - vishrutjaipuria@gmail.com
+                                                         Tin number - 1111111111
+
+Invoice Number : 9
+Date :  27/01/2017
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+ S.NO  Product Code    Description                             Quantity   Price Per Unit   Total Price
+—————————————————————————————————————————————————————————————————————————————————————————————————————-
+
+   1         1         13.3"                                     10         50000             500000
+
+
+
+                                                                             Total       : Rs.500000
+                                                                             Taxes       : Rs.10000
+                                                                             ————————————————————————-
+                                                                             Grand Total : Rs.510000
+                                                                             ————————————————————————-
+
+
+
+Payment terms
+Payment within 30 days via money transfer only to the following account:
+Inventory Management
+Sort Code: 123
+Account No: 123456789
+
+Terms and Conditions :-
+1. Goods once sold will not be returned. 
+2. Goods despatched at customer's risk.3. Disputes subject to Delhi Jurisdiction.

@@ -1,0 +1,43 @@
+                                         Retail  Invoice
+
+Customer Information:                                    Company Information:
+Vishrut                                                  Inventory
+W-97, GK-2                                               W - 97, Greater Kailash - 2
+ND-110048                                                New Delhi - 110048
+9999335240                                               Telephone Number - +919999335240
+vishrutjaipuria@gmail.com                                E-mail - vishrutjaipuria@gmail.com
+                                                         Tin number - 1111111111
+
+Invoice Number : 6
+Date :  23/01/2017
+——————————————————————————————————————————————————————————————————————————————————————————————————————
+ S.NO  Product Code    Description                             Quantity   Price Per Unit   Total Price
+—————————————————————————————————————————————————————————————————————————————————————————————————————-
+
+   1         2         Long, black earphones with mic           10         3000              30000
+                       great sound, bass, tangle free with 
+                       extra silicon covers, 3.5mm 
+                       case
+
+   2         123       32GB                                      1          45000             45000
+
+
+
+                                                                             Total       : Rs.75000
+                                                                             Taxes       : Rs.1500
+                                                                             Shipping    : Rs.100
+                                                                             ————————————————————————-
+                                                                             Grand Total : Rs.76600
+                                                                             ————————————————————————-
+
+
+
+Payment terms
+Payment within 30 days via money transfer only to the following account:
+Inventory Management
+Sort Code: 123
+Account No: 123456789
+
+Terms and Conditions :-
+1. Goods once sold will not be returned. 
+2. Goods despatched at customer's risk.3. Disputes subject to Delhi Jurisdiction.
