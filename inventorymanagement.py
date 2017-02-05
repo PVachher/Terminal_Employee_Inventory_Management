@@ -4,6 +4,7 @@ import os
 import time
 from datetime import datetime
 from emailengine import emailit
+#Version 1
 #-------------------- CLASS DEFINATION --------------------------#
 
 class inventory(object):
@@ -383,7 +384,7 @@ class inventory(object):
         while choice2 not in [1,2]:
             choice2 = input('Choice(1/2) : ')
         if choice2 == 2:
-            print "Bill Number: ", self.count
+
             customername = raw_input('Customer Name :')
             customeradd1 = raw_input('Customer Address(Line 1) :')
             customeradd2 = raw_input('Customer Address(Line 2) :')
@@ -391,22 +392,21 @@ class inventory(object):
             customerno = raw_input('Customer Phone Number :')
             customeremail = raw_input('Customer Email :')
             print
-            print '1. To save this customer information\n2. To continue'
-            choice3 = input('Choice(1/2) : ')
-            if choice3 == 1:
-                tempdict = {}
-                tempdict['address1'] = customeradd1
-                tempdict['address2'] = customeradd2
-                tempdict['City'] = customercity
-                tempdict['Phone Number'] = customerno
-                tempdict['email'] = customeremail
-                globalcompanydatabase['Customers'][customername] = tempdict
-                globalcompanydatabase['Customers'][customername]['Salesrecord'] = {}
-                globalcompanydatabase['Customers'][customername]['Salesrecord']['Bills'] = []
-                globalcompanydatabase['Customers'][customername]['Salesrecord']['Total sales'] = 0
-                globalcompanydatabase['Customers'][customername]['rewardpoints'] = 0
-                print 'Customer Information saved'
-                print
+
+
+            tempdict = {}
+            tempdict['address1'] = customeradd1
+            tempdict['address2'] = customeradd2
+            tempdict['City'] = customercity
+            tempdict['Phone Number'] = customerno
+            tempdict['email'] = customeremail
+            globalcompanydatabase['Customers'][customername] = tempdict
+            globalcompanydatabase['Customers'][customername]['Salesrecord'] = {}
+            globalcompanydatabase['Customers'][customername]['Salesrecord']['Bills'] = []
+            globalcompanydatabase['Customers'][customername]['Salesrecord']['Total sales'] = 0
+            globalcompanydatabase['Customers'][customername]['rewardpoints'] = 0
+            print 'Customer Information saved'
+            print
 
         elif choice2 == 1:
             customername = raw_input('Customer Name :')
@@ -670,7 +670,6 @@ class inventory(object):
         ifile.close()
         os.rename('BillsGenerated/hello2.txt',"BillsGenerated/Bill Number- "+ str(self.count)+".txt")
         emailit(globalcompanydatabase['sales'][self.count]['Customer Information']['Email'],self.count)
-        print
         print 'Bill Generated and sent to customer'
         self.menu()
 
