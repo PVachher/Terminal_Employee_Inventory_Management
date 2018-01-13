@@ -1,7 +1,7 @@
 #IMPORT CALLS
 
 import pickle
-from inventorymanagement import *
+from inventorymodules import *
 #from fp
 
 # -----------------------------------------------------------------------------#
